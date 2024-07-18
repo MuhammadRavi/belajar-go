@@ -1,0 +1,15 @@
+defer --> 
+    1. akan memanggil sebuah function jika function utama selesai di eksekusi.
+    2. cara penggunaan'nya adalah dengan menaruh function yang mau di panggil di akhir
+       tapi kita letakan pada posisi paling awal pada sebuah function utama dengan 
+       diikuti "defer" --> defer namaFunction()
+    3. alur kerja dari defer adalah karena kita taruh di posisi paling atas 
+       pada sebuah function utama, ketika function utama terjadi error maka
+       defer akan tetap jalan.
+panic -->
+    1. akan menghentikan function jika terjadi error.
+    2. ketika kita memiliki defer pada sebuah function yang kita set panic
+       maka function yang kita defer akan tetap jalan.
+recover -->
+    1. akan menangkap data panic.
+    2. kita harus menempatkan recover berada dalam defer

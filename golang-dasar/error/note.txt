@@ -1,0 +1,17 @@
+Error -->
+    global: sebelum kita udah pelajarin function
+                1. defer()
+                2. panic()
+                3. recover()
+            ketiga function diatas digunakan ketika ada program yang
+            bisa menghentikan applikasi.
+    1. kita dapat membuat error pesan dengan menggunakan interface error,
+        contoh: 
+            type error interface {
+                Error() string
+            }
+        interface error ini sudah disediakan oleh Go-Lang.
+    2. kita juga harus menggunkan helper errors yang sudah disediakan oleh
+       Go-lang yang terdapat pada package error.
+    3. biasanya programmer Go-lang ketika membuat function dan kemungkinan 
+       akan ada terjadi error, dia akan membuat return value error juga.

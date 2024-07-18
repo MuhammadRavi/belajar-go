@@ -1,0 +1,29 @@
+--------- Membuat Modul --------------
+Ketika Membuat project Go kita harus membuat modul terlebih dahulu
+dengan cara : go mod init (nama_project) -> go mod init GO  
+
+
+---------- Ketika membuat project awal --------
+Bahasa golang dalam menjalan program, dia akan menjalankan process yang berada dalam
+function main, untuk penulisan function kita bisa menggunkan "func". Ketika kita
+membuat func main kita harus menambahkan "package main" untuk menandakan bahwa ini 
+adalah file main.
+
+---------- Ketika Ingin Running Program ------------
+--- Kompilasi ----
+    ketika kita ingin running program Go kita bisa menggunakan perintah
+    "go build" dimana ketika kita menjalankan perintah tersebut. dia akan 
+    membuat execute table sesuai dengan nama folder di mana function main 
+    berada. setelah perintah "go build" kita bisa menjalankan "./namaExecteTable"
+
+--- Tanpa Kompilasi (Digunakan Hanya Selama Fase Development)
+    kita bisa menjalankan program tanpa harus kita kompilasi menjadi sebuah aplikasi .exe
+    dengan cara "go run namaFile.go"
+
+
+---------- Multiple Function Main ----------------
+    Dalam satu modul/project/folder kita tidak dapat "build" karena 
+    memiliki lebih dari 1 function main. contoh misal: 
+    1. helloWorld.go, 2.sample.go dimana dalam kedua file 
+    tersebut terdapat main, maka go tidak dapat menjalankan
+    salah satu filenya karena terdapat lebih dari 1 main.

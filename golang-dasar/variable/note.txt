@@ -1,0 +1,12 @@
+ketika kita menggunakan variable kita bisa menggunakan seperti:
+1. var namaVariable tipeData; --> var nama string;
+2. var namaVariable = value; --> by default go akan menyadari tipe data dari value
+3. kita bisa menambahkan variable tanpa haru melampirkn "var" dengan cara
+   namaVariable := value, "namaVariable := value" hanya dilakukan diawal saja
+   jadi ketika proses berikutnya kita tidak boleh set kembali dengan format yang Selama
+
+
+dalam pembuatan variable kita bisa menggunkan multiple variable dengan cara
+var (namaVariableFirst=value namaVariableSecond=value). keuntungannya adalah
+lebih mudah dibaca. ketika kita menggunkan mutile variable semua'nya harus terpakai
+jika tidak akan terjadi error yang menandakan terdapat 1 variable yang di digunakan.

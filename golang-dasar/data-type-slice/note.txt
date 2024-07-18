@@ -1,0 +1,20 @@
+1. slice: bagian dari array tapi di ukurannya bisa berubah-ubah kalo arraykan langsung di set ukuran'nya.
+2. slice itu pinter ketika array pertama sudah penuh kita bisa membuat array baru dengan cara slice.    
+3. sliec mempunyai 3 tipe data:
+   1. pointer: penunjuk array pertama 
+   2. length: panjang array
+   3. capacity: kapasitas dari slice dimulai dari pointer sampaing akhir array.
+4. cara membuat slice dari array
+   array[low:high] = membuat slice dari array dengan index dari 0 sampai sebelum high
+   array[low:] = membuat slice dari array dengan index dari 0 sampai index tertinggi
+   array[:high] = membuat slice dari array dengan index dari 0 sampai sebelum high
+   array[:] = membuat slice dari array dengna index dari 0 sampai index tertinggi 
+5. function yang terdapat dalam slice:
+   1. len(slice) --> untuk mendapatkan pangjang slice
+   2. cap(slice) --> untuk mendapatkan capacity slice
+   3. append(slice,data) --> untuk menambahkan value baru kedalam array pada posisi index terakhir.
+                             jika sudah melewati capacity secara automatic slice akan membuat array baru.
+   4. make([]typData, length, capacity) --> membuat slice baru
+   5. copy(destination, source) --> Menyalin slice dari source ke destination.
+6. ketika kita melakukan perubahan data pada slice akan mempengaruhi array aslinya jika kapasitas tidak melebihi
+   dari yang sudah ada.

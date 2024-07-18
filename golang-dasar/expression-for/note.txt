@@ -1,0 +1,4 @@
+1. terdapat beberapa jenis for :
+   1. for biasa
+   2. for statement
+   3. for range: perulangan yang dipakai untuk data collection (array, slice, map)

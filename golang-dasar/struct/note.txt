@@ -1,0 +1,13 @@
+struct --> 
+    1. menggabungkan lebih dari 1 tipe data
+    2. terdiri atas field / attributes, field/attributes menggunakan
+       format Pascacase --> huruf kapital depan.
+    3. tujuan'nya ada sebagai prototype data (object)
+struct method --> 
+    1. method --> function
+        contoh pembuatn'nya:
+         format: func (namaParameter NamaStruct) namaFunction() {}
+         real: function (customer Customer) register(){}
+    2. ketika kita menggunakan struct method kita juga biasa
+       menambakan parameter pada functionnya & juga tipe data return value'nya
+       jika dibutuhkan.

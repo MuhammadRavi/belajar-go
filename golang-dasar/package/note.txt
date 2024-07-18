@@ -1,0 +1,10 @@
+package -->
+    1. digunakan untuk mengorganisir kode program kita.
+    2. nama package harus sama dengan nama folder'nya.
+    3. ketika kita ingin membuat function/variable yang bisa diakses
+       di pacage lain kita harus membuat nama function'nya menjadi
+       Kapital di huruf depannya:
+       contoh:
+            SayHello --> dapat diakses oleh package lain.
+            sayHello --> tidak dapat diakses oleh package lain tapi 
+                         dapat diakses oleh package yang sama.

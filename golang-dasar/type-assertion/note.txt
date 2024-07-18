@@ -1,0 +1,11 @@
+type assertion -->
+        1. digunakan untuk merubah tipe data sesuai dengan 
+           yang diinginkan.
+        2. biasa digunakan ketika tipe data berasal dari tipe data interface kosong.
+        3. contoh penggunaan: 
+            contoh := functionReturnValueInterfaceKosong()
+            convertionDataType = contoh.(dataType yang diinginkan)
+                actual:
+                    convertionDataType = contoh.(string)
+        4. sebaiknya ketika kita ingin menggunakan type assertion
+           kita menggunakan switch kenapa ? karena agar applikasi tidak terjadi panic.

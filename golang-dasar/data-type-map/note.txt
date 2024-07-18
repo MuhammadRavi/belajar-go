@@ -1,0 +1,13 @@
+1. Map adalah tipe data yang terdiri atas key-value (analogi'nya sama dengan JSON),
+   ketika kita menambahkan key yang sama dengan yang sudah ada maka data yang sebelumnya
+   akan di update.
+2. Map dan slice identik yaitu bisa menampung banyak data tapi kalo map kita harus 
+   memperhatikan key-value'nya.
+3. contoh deklarasi'nya:
+   map[tipeDataKey]typeDataValue --> map[string]string
+4. function yang terdapat pada map:
+   1. len(map) --> panjang map
+   2. map[key] --> mengambil data map sesuai dengan key
+   3. map[key] = value --> merubah value atas nama key
+   4. make(map[typeData]typeData) --> membuat map baru
+   5. delete(map, key) --> menghapus data dari map berdasarkan key. 

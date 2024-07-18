@@ -1,0 +1,8 @@
+tipe data string direpresentasikan oleh "string"
+
+
+leng("string") => Menghitung Jumlah karakter dalam String.
+"string"[number] => 
+    1. digunakan untuk mengambil karakter pada string berdasarkan
+       posisi index karakter.
+    2. reponse yang didapat adalah btye

@@ -1,0 +1,4 @@
+1. variable "const" adalah variable yang tidak boleh berubah. 
+2. "const" tidak akan menyebabkan error jika tidak digunakan.
+3. kita juga bisa membuat variable multiple const dengan cara
+   const (namaVariable1=value, namaVariable2=value)

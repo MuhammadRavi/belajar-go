@@ -1,0 +1,7 @@
+
+---------- Multiple Function Main ----------------
+    Dalam satu modul/project/folder kita tidak dapat "build" karena 
+    memiliki lebih dari 1 function main. contoh misal: 
+    1. helloWorld.go, 2.sample.go dimana dalam kedua file 
+    tersebut terdapat main, maka go tidak dapat menjalankan
+    salah satu filenya karena terdapat lebih dari 1 main.

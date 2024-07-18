@@ -1,0 +1,9 @@
+1. nil --> 
+        1. null / kosong
+        2. hanya dapat digunakan pada tipe data 
+            1. function, 
+            2. map, 
+            3. slice, 
+            4. interface, 
+            5. pointer, 
+            6. chanel

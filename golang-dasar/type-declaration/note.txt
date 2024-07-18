@@ -1,0 +1,5 @@
+1. Type Declaration digunakan untuk membuat tipe data baru dengn tipe data yang sudah ada.
+2. Type Declaration bisa digunakan untuk membuat alias atas tipe data yang sudah ada untuk mudah dimengerti
+
+contoh penggunaan type declaration:
+type namaDeclaration tipeData'nya -->  type nama string

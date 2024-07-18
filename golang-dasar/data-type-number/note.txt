@@ -1,0 +1,36 @@
+Data Type Number Terbagi menjadi 2
+1. Integer --> Bilangan Bulat
+2. Floating Point --> Bilangan Desimal
+
+semakin besar jangkauan tipe datanya maka 
+memori akan semakin banyak terpakai, jadi lebih baik
+menggunakan sesuai dengan kebutuhan saja.
+
+----- Integer -----
+ --- Negatif Ke Positif ----
+    1. int8 ---> -128  -> 127
+    2. int16 --> -32768 -> 32767
+    3. int32 --> -2147483648 -> 2147483647
+    4. int64 --> -9223372036854775808 -> -9223372036854775807
+ ---- Positif ------
+  1. uint8 --> 0 -> 255
+  2. uint16 --> 0 -> 65535
+  3. uint32 --> 0 -> 4294967295
+  4. uint64 --> 0 -> 18446744073709551615
+
+------ Floating Point ----------
+1. float32 --> 1.8 x 10-38  -> 3.4 x 10+38
+2. float64 --> 2.23 x 10-308 -> 1.80 x 10+308
+3. complex64 --> 
+    lebih diperuntukan untuk perhitungan matematika banget.
+    terdiri atas float32 & imaginary part
+4. complex128 --> 
+    lebih diperuntukan untuk perhitungan matematika banget
+     terdiri atas float64 & imaginary part
+
+
+------------ Alias (Nama Lain) -------------
+1. btye --> uint8
+2. rune --> int32
+3. int --> minimal int32
+4. uint -> minial uint32

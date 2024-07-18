@@ -1,0 +1,32 @@
+pointer -->
+    1. go-lang merupakan bahasa yang menggunakan cara 
+       pass-by-value bukan pass-by-reference.
+        1. pass-by-value -->
+            1. menduplikasi data
+            2. misal kita mempunyai 2 variable
+                a := {nama: "ravi"}
+                b := a
+
+                lalu kira rubah nama pada variable b menjadi
+                    b.nama = "Budi"
+                perubahan yang kita lakukan tidak akan ber-impact
+                pada variable A.
+        2. pass-by-reference -->
+            1. membuat reference ke lokasi data dimemory yang sama, tanpa menduplikasi
+               data yang sudah ada. cara penggunaan'nya kita hanya perlu menambahkan "&" pada
+               variable yang ingin kita rujuk reference'nya.
+            2. misal kita mempunyai 2 variable
+                var a Address = Address{nama: "ravi"}
+                var b *Address := &a
+
+                lalu kira rubah nama pada variable b menjadi
+                    b.nama = "Budi"
+                perubahan yang kita lakukan akan ber-impact
+                pada variable A. 
+    2. cara menggunakan pointer kita hanya perlu menambahkan "&"
+       pada variable yang ingin kita rujuk reference'nya.
+       misal:
+                a := {nama: "ravi"}
+                b := &a
+    3. pointer memiliki function new() untuk membuat pointer baru dengan 
+       default value kosong.

@@ -1,0 +1,5 @@
+interface -->
+   1. hanya berisikan definisi-definisi method/function.
+   2. tujuan'nya adalah sebagai kontrak. artinya ketika
+      ada yang ingin menggunakan interface'nya maka harus memiliki
+      method yang sudah di definisikan didalam interface'nya.

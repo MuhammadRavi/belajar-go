@@ -1,0 +1,7 @@
+ketika kita melakukan konversi diluar dari jangkauan tipe datanya maka
+secara default akan menggunakan value terkecil dari jangkauan tersebut.
+contoh:
+
+int32 = 32768 akan di konversi ke int16 dimana jangkauan int16 (-32768 -> 32767) 
+karena value diluar dari jangkauan maka secara default ketika dikonversi akan menghasilkan
+-32768

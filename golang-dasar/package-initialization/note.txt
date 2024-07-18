@@ -1,0 +1,16 @@
+package initialization -->
+        1. kita dapat membuat function yang akan diakses 
+           ketika package'nya diakses.
+            contoh:
+                1. biasa digunakan untuk membuka koneksi 1 kali 
+                   ke database.
+        2. cara penggunaannya kita cukup perlu membuat function dengan nama
+           "init".
+            contoh:
+                func init(){
+
+                }
+        3. ketika kita ingin membuat init tapi hanya ingin dijalankan di package init berada
+           lalu kita coba akses di package main. kita bisa menambahkan blank identifier (_).
+           contoh:
+            _ "package....."
