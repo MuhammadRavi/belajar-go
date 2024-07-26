@@ -1,0 +1,8 @@
+untuk path terbgi menjadi 2:
+    1. path -->
+            1. digunakan untuk url / file system.
+            2. cocok untuk sytem operasi yang bukan windows
+            3. https://pkg.go.dev/path
+    2. filepath -->
+            1. digunakan untuk file system
+            2. https://pkg.go.dev/path/filepath

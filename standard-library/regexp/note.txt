@@ -1,0 +1,4 @@
+regexp -->
+    1. digolang mengunakan library yang dibuat oleh goggle dari bahasa C,
+       detailnya penggunaan syntax bisa dilihat pada:
+        https://github.com/google/re2/wiki/Syntax

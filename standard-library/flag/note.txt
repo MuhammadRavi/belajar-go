@@ -1,0 +1,3 @@
+flag --> 
+    1. digunakan untuk mengkonversi command line argument
+    2. flag itu returnya selalu pointer.

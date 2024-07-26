@@ -1,0 +1,10 @@
+container --> 
+    1. digunakan untuk antrian.
+    2. terdapat 2:
+        1. list -->
+            1. struktur data double linked list.
+            2. digunakan untuk antrian.
+        2. ring --> 
+            1. struktur data circular list (ring)
+            2. ketika berada di element terakhir lalu next 
+               maka akan balik ke element pertama dan seterusnya.

@@ -1,0 +1,9 @@
+strconv -->
+    1. digunakan untuk mengkonversi string ke tipe data yang diinginkan atau sebaliknya.
+    2. berikut yang sering digunakan:
+        1. strconv.parseBool(string) --> konversi string ke boolean
+        2. strconv.parseFloat(string) --> konversi string ke float
+        3. strconv.parseInt(string) --> konversi string ke int64
+        4. strconv.fomatBool(bool) --> konversi boolean ke string
+        5. strconv.formatFloat(float, ....) --> konversi float64 ke string
+        6. format.formatInt(int, ....) --> konversi int64 ke string

@@ -1,0 +1,8 @@
+reflect --> 
+    1. untuk memeriksa & memanipulasi object dengan tipe arbitrer (interface kosong) pada saat runtime.
+    2. Package reflect di Go memungkinkan inspeksi dan manipulasi objek pada runtime. 
+       Ini berguna ketika tipe objek tidak diketahui hingga saat program berjalan.
+    3. dengan reflect, kita bisa:
+        1. mengetahui tipe & value dari variabel.
+        2. memanggil metode
+        3. mengakses field
