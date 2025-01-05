@@ -5,5 +5,6 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("Hello World Muhammad Ravi Mega Arasy")
+	fmt.Println("Belajar Jenkins");
+	fmt.Println("Hello World Muhammad Ravi Mega Arasy");
 }

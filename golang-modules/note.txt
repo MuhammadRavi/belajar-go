@@ -1,0 +1,18 @@
+menambahkan module
+    Syntax: go get nama-module
+mengupgrade module 
+    cara :
+        1.
+            1. kita rubah dulu tag'nya yang ada pada go.mod
+            2. kita jalankan go get
+        2.
+            1. go get module@version
+            2. setelah kita update version'nya sebaiknya kita hapus dependencies
+               yang tidak terpakai dengan cara: go mod tidy
+menghapus module
+    Systax: 
+        1. hapus specific module:
+            Systax: go get nama-module@none
+        2. clean up module yang sudah tidak digunakan lagi yang 
+           berada pada go.mod & go.sum
+            Syntax: go mod tidy (akan clean up dependencies yang ada pada go.mod & go.sum)
